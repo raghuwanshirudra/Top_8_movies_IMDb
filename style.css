@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.navbar{
+    height: 150px;
+    background-color: #151718;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("images/imdb-logo.png");
+    background-size: cover;
+    margin-left: 50px;
+}
+
+.logo1{
+    height: 15px;
+    width: 30px;
+    background-image: url("images/imdb-logo.png");
+    background-size: cover;
+    
+}
+
+.nav-search{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    border-radius: 44px;
+    gap: 10px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #e0e1dd;
+    border-radius: 4px;
+    color: black;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.sign-in{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: underline;
+}
+
+.panel{
+    color: white;
+    height: 80px;
+    background-color: #3e3e3e;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+    flex-wrap: wrap;
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(184, 183, 183);
+}
+
+.movie-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #cdebfb; */
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.m{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 1.5rem;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.box-content{
+    margin-left: 1.2rem;
+    margin-right: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.trailer img{
+    height: 25px;
+    width: 30px;
+}
+
+.logo1 a{
+    margin-left:1px
+}
+
+.foot1{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5c518;
+    margin-top: 100px;
+}
+
+.foot2{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e;;
+}
+
+.mid{
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.end{
+    color: white;
+    padding-left: 30px;
+}
